@@ -21,10 +21,40 @@
 
     p.mb-5 La promoción turística ha evolucionado gracias a la digitalización, que permite conectar a los destinos con audiencias globales de manera más efectiva. Algunas de las herramientas más destacadas incluyen:
 
-    .row.justify-content-center.p-md-5.p-4(data-aos="flip-up")
-      .col-12
-        .tarjeta.tarjeta--BG08.p-4
-          SlyderB.p-4(:datos="datosSlyder")
+    .tarjeta.tarjeta--azul.mb-5(data-aos="fade-left")
+      .p-4.p-lg-5
+        SlyderA(tipo="b")
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Plataformas de redes sociales]
+              p.mb-0 Sitios como Instagram, TikTok y Facebook permiten a los destinos mostrar su oferta a través de contenido visual atractivo, utilizando estrategias como influencers y transmisiones en vivo para generar mayor alcance. Por ejemplo, campañas virales como las de Visit Norway han logrado aumentar el interés turístico mediante historias auténticas y paisajes impactantes.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema7/img-02.png', style="width: 450px" ,alt='').m-auto
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Sistemas de gestión de relaciones con el cliente (CRM)]
+              p.mb-0 Estas plataformas recopilan datos de los turistas para personalizar experiencias y fortalecer la fidelización. Un destino puede enviar ofertas específicas según las preferencias de un viajero frecuente, aumentando la probabilidad de repetición.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema7/img-03.png', style="width: 450px" ,alt='').m-auto
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Realidad virtual y aumentada]
+              p.mb-0 Herramientas como Google Expeditions o aplicaciones personalizadas de destinos ofrecen recorridos virtuales que permiten al turista explorar atractivos antes de viajar, aumentando su deseo de visita. Por ejemplo, destinos como Machu Picchu ya cuentan con visitas virtuales inmersivas para captar la atención de viajeros potenciales.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema7/img-04.png', style="width: 450px" ,alt='').m-auto 
+
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Sitios #[i web] interactivos]
+              p.mb-0 Herramientas como Google Expeditions o aplicaciones personalizadas de destinos ofrecen recorridos virtuales que permiten al turista explorar atractivos antes de viajar, aumentando su deseo de visita. Por ejemplo, destinos como Machu Picchu ya cuentan con visitas virtuales inmersivas para captar la atención de viajeros potenciales.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema7/img-05.png', style="width: 450px" ,alt='').m-auto 
 
     Separador
 

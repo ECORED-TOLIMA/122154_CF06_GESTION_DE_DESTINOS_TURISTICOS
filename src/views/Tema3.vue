@@ -39,7 +39,7 @@
           
           .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/temas/tema3/img-02.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema3/img-02.png', alt='Imagen decorativa')
 
     p.mb-5 Un desarrollo turístico planificado y equilibrado no solo aumenta la competitividad del destino, sino que también contribuye al bienestar de las comunidades locales, preservando su entorno y cultura para las generaciones futuras
 
@@ -77,7 +77,7 @@
     
       .col-lg-3.col-12.mb-5.d-lg-flex.d-none(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema3/img-03.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img-03.png', alt='Imagen decorativa')
       
       .col-lg-7.col-12.mb-3(data-aos="fade-right")
         ol.lista-ol--cuadro

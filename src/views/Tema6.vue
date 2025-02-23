@@ -88,7 +88,7 @@
       li 
         .lista-ol--cuadro__vineta(style="color: #000")
           span #[b a]
-        | #[b(style="color: #544403 !important") Planificación integrada]
+        | #[b(style="color: #544403 !important") Principales criterios de segmentación:]
 
     .row.mb-5
       .col-xl-12.m-auto
@@ -106,6 +106,7 @@
 
           .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in" data-aos-duration="900")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.d-flex.align-content-center.align-items-end.text-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img-06v.png')})`}" style="box-shadow:0px 4px 20px rgba(0,0,0,.18);")
                   .w-100.text-center
@@ -116,6 +117,7 @@
 
           .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in" data-aos-duration="900")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.d-flex.align-content-center.align-items-end.text-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img-07v.png')})`}" style="box-shadow:0px 4px 20px rgba(0,0,0,.18);")
                   .w-100.text-center
@@ -126,6 +128,7 @@
 
           .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in" data-aos-duration="900")
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.d-flex.align-content-center.align-items-end.text-center(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img-08v.png')})`}" style="box-shadow:0px 4px 20px rgba(0,0,0,.18);")
                   .w-100.text-center
@@ -142,7 +145,7 @@
               li 
                 .lista-ol--cuadro__vineta(style="color: #000")
                   span #[b b]
-                | #[b(style="color: #544403 !important") Planificación integrada]
+                | #[b(style="color: #544403 !important") Análisis de la demanda turística:]
 
             p Este análisis examina la capacidad de atracción de un destino y su impacto económico, social y ambiental. Considera variables como:
             ul.lista-ul.mb-4
@@ -167,7 +170,7 @@
 
           .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/temas/tema6/img-09.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema6/img-09.png', alt='Imagen decorativa')
 
 
 
@@ -188,7 +191,7 @@
 export default {
   name: 'Tema6',
   data: () => ({
-    // variables de vue
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

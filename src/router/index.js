@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Inicio from '../../node_modules/ecored-base-pkg/src/views/Inicio.vue'
-import Curso from '../../node_modules/ecored-base-pkg/src/views/Curso.vue'
+import Inicio from 'ecored-pkg-fliz/plugin/components/Inicio.vue'
+import Curso from 'ecored-pkg-fliz/plugin/components/plantilla/Curso.vue'
+import Glosario from 'ecored-pkg-fliz/plugin/components/Glosario.vue'
+import Referencias from 'ecored-pkg-fliz/plugin/components/Referencias.vue'
+import Creditos from 'ecored-pkg-fliz/plugin/components/Creditos.vue'
+import Complementario from 'ecored-pkg-fliz/plugin/components/Complementario.vue'
 
 Vue.use(VueRouter)
 
@@ -60,13 +64,13 @@ const router = new VueRouter({
           path: 'tema6',
           name: 'tema6',
           component: () =>
-            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
+            import(/* webpackChunkName: "tema5" */ '../views/Tema6.vue'),
         },
         {
           path: 'tema7',
           name: 'tema7',
           component: () =>
-            import(/* webpackChunkName: "tema7" */ '../views/Tema7.vue'),
+            import(/* webpackChunkName: "tema5" */ '../views/Tema7.vue'),
         },
       ],
     },
@@ -79,26 +83,17 @@ const router = new VueRouter({
     {
       path: '/glosario',
       name: 'glosario',
-      component: () =>
-        import(
-          /* webpackChunkName: "glosario" */ '../../node_modules/ecored-base-pkg/src/views/Glosario.vue'
-        ),
+      component: Glosario,
     },
     {
       path: '/complementario',
       name: 'complementario',
-      component: () =>
-        import(
-          /* webpackChunkName: "comple" */ '../../node_modules/ecored-base-pkg/src/views/Complementario.vue'
-        ),
+      component: Complementario,
     },
     {
       path: '/referencias',
       name: 'referencias',
-      component: () =>
-        import(
-          /* webpackChunkName: "referencias" */ '../../node_modules/ecored-base-pkg/src/views/Referencias.vue'
-        ),
+      component: Referencias,
     },
     {
       path: '/sintesis',
@@ -109,10 +104,7 @@ const router = new VueRouter({
     {
       path: '/creditos',
       name: 'creditos',
-      component: () =>
-        import(
-          /* webpackChunkName: "creditos" */ '../../node_modules/ecored-base-pkg/src/views/Creditos.vue'
-        ),
+      component: Creditos,
     },
   ],
   scrollBehavior(to, from) {

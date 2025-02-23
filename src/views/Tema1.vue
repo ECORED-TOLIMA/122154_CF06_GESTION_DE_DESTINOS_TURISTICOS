@@ -14,34 +14,58 @@
 
     p.mb-5 El desarrollo sostenible se fundamenta en satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras para cubrir las suyas. Este enfoque integral exige un equilibrio entre tres pilares fundamentales: el crecimiento económico, la inclusión social y la sostenibilidad ambiental, trabajando de manera conjunta para garantizar un futuro equitativo y resiliente.
 
-    PasosA.color-acento-contenido.mb-5(tipo="l")
-      div
-        h3 Crecimiento económico
-        p El desarrollo sostenible impulsa un modelo económico innovador que busca prosperidad sin agotar los recursos naturales. Esto incluye el fomento de actividades productivas que generen empleo estable y oportunidades económicas locales, mientras se minimizan los impactos negativos en el entorno. La economía circular y la transición hacia energías renovables son ejemplos de estrategias que refuerzan este pilar.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12.mb-md-0
+        PasosA.color-acento-contenido.mb-5(tipo="l")
+          div
+            h3 Crecimiento económico
+            p El desarrollo sostenible impulsa un modelo económico innovador que busca prosperidad sin agotar los recursos naturales. Esto incluye el fomento de actividades productivas que generen empleo estable y oportunidades económicas locales, mientras se minimizan los impactos negativos en el entorno. La economía circular y la transición hacia energías renovables son ejemplos de estrategias que refuerzan este pilar.
 
-      div
-        h3 Inclusión social
-        p Este modelo promueve una sociedad justa e inclusiva, donde se reduzcan las desigualdades y se garantice el acceso universal a derechos fundamentales como salud, educación, vivienda y empleo digno. Además, se reconoce la diversidad cultural y el rol esencial de las comunidades vulnerables, asegurando su participación activa en la toma de decisiones y su beneficio del desarrollo.
+          div
+            h3 Inclusión social
+            p Este modelo promueve una sociedad justa e inclusiva, donde se reduzcan las desigualdades y se garantice el acceso universal a derechos fundamentales como salud, educación, vivienda y empleo digno. Además, se reconoce la diversidad cultural y el rol esencial de las comunidades vulnerables, asegurando su participación activa en la toma de decisiones y su beneficio del desarrollo.
 
-      div
-        h3 Sostenibilidad ambiental
-        p La preservación de los recursos naturales y la biodiversidad es vital. Este pilar engloba acciones como la gestión sostenible de los recursos, la mitigación del cambio climático, la protección de hábitats y la implementación de prácticas regenerativas que restauren los ecosistemas afectados.
+          div
+            h3 Sostenibilidad ambiental
+            p La preservación de los recursos naturales y la biodiversidad es vital. Este pilar engloba acciones como la gestión sostenible de los recursos, la mitigación del cambio climático, la protección de hábitats y la implementación de prácticas regenerativas que restauren los ecosistemas afectados.
 
-    p.mb-5 En su conjunto, el desarrollo sostenible busca construir un modelo equilibrado y adaptable, capaz de responder a los desafíos globales y garantizar un futuro próspero, inclusivo y ecológicamente responsable.
+        p.mb-5 En su conjunto, el desarrollo sostenible busca construir un modelo equilibrado y adaptable, capaz de responder a los desafíos globales y garantizar un futuro próspero, inclusivo y ecológicamente responsable.
 
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1. Modelos
 
-    p.mb-3 El desarrollo sostenible se basa en diversos modelos que guían las estrategias para equilibrar el crecimiento económico, la inclusión social y la sostenibilidad ambiental. Algunos de los modelos más destacados incluyen:
+    p.mb-5 El desarrollo sostenible se basa en diversos modelos que guían las estrategias para equilibrar el crecimiento económico, la inclusión social y la sostenibilidad ambiental. Algunos de los modelos más destacados incluyen:
 
-    .row.justify-content-center.p-md-5.p-4(data-aos="flip-up")
-      .col-12
-        .tarjeta.tarjeta--BG08.p-4
-          SlyderB.p-4(:datos="datosSlyder")
+    .tarjeta.tarjeta--azul.mb-5(data-aos="fade-left")
+      .p-4.p-lg-5
+        SlyderA(tipo="b")
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Optimización de ventas]
+              p.mb-0 El CRM automatiza y organiza el seguimiento de clientes potenciales y oportunidades de negocio. Esto permite a los equipos de ventas centrarse en actividades de alto valor, como el cierre de ventas, en lugar de perder tiempo en tareas administrativas. Además, el CRM facilita el análisis del comportamiento de los clientes, lo que ayuda a identificar oportunidades de ventas cruzadas #[i (cross-selling)] y ventas incrementales #[i (up-selling).]
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-02.png', style="width: 450px" ,alt='').m-auto
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Automatización del #[i marketing]]
+              p.mb-0 El CRM también permite la automatización de las campañas de #[i marketing,] personalizando los mensajes para cada segmento de clientes y enviándolos en el momento adecuado. Las empresas pueden programar correos electrónicos, notificaciones y promociones personalizadas según el comportamiento del cliente, lo que incrementa la efectividad de las campañas y mejora las tasas de conversión.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-03.png', style="width: 450px" ,alt='').m-auto
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Mejora del servicio al cliente]
+              p.mb-0 El CRM centraliza la información de los clientes, lo que permite a los equipos de servicio acceder fácilmente a los datos relevantes de los clientes, incluidas las interacciones pasadas, consultas previas y preferencias personales. Esto mejora la calidad del servicio al cliente y permite una resolución más rápida y efectiva de problemas.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-04.png', style="width: 450px" ,alt='').m-auto 
 
-    p.mb-5 Los criterios de valoración del turismo sostenible permiten identificar cómo las actividades turísticas pueden influir positivamente en los destinos y comunidades receptoras. Estos criterios no solo buscan minimizar los efectos negativos, sino también potenciar beneficios tangibles en términos ambientales, sociales y económicos.
+    p.mb-5 En conjunto, estos modelos ofrecen perspectivas complementarias para implementar estrategias sostenibles en diferentes contextos, fomentando un equilibrio entre los beneficios económicos, sociales y ambientales.
 
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-10(data-aos="fade-down")
@@ -62,7 +86,7 @@
         p.mb-5 La gestión sostenible de destinos turísticos es esencial para garantizar que el turismo beneficie tanto a la comunidad local como al entorno natural, sin comprometer los recursos para futuras generaciones. Para lograr una gestión efectiva, se deben tener en cuenta varias estrategias clave:
         .col-lg-4.col-6.order-lg-1.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/temas/tema1/img-06.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img-06.png', alt='Imagen decorativa')
         .col-lg-8.col-12.order-lg-2.order-2
           ul.lista-ul.mb-2
             li.mb-0

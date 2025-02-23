@@ -45,14 +45,28 @@
     background-color: #FEF7EB
 
 .tema1
-  .tarjeta.tarjeta--BG08
-    background-image: url("../assets/curso/temas/BG08.svg")
-    background-size: cover 
+  //Fondo Slyder A
+  .tarjeta.tarjeta--azul
+    background-image: url(../assets/curso/temas/BG08.svg)
     background-repeat: no-repeat
-    background-position: center
-    margin-inline: -3rem !important
-    @media (max-width: $bp-max-sm)
-      margin-inline: -1.5rem !important
+    background-size: cover
+  
+  //Slyder
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #09614D
+    color: #FFFF
+    border: none
+    background-image: url(../assets/curso/temas/tema1/chevron-right2.png)
+
+  .slyder-a__bullets__item
+    background-color: #FFFFFF
+    @media (max-width: 450px)
+      margin: 0 5px
+    @media (max-width: 400px)
+      margin: 0 4px
+
+  .slyder-a__bullets__item--active
+    background-color: #09614D
 
   .slyder__btn
     background-color: #09614D
@@ -133,6 +147,29 @@
   .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
     display: flex
 
+  //Fondo Slyder A
+  .tarjeta.tarjeta--azul
+    background-image: url(../assets/curso/temas/BG08.svg)
+    background-repeat: no-repeat
+    background-size: cover
+  
+  //Slyder
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #09614D
+    color: #FFFF
+    border: none
+    background-image: url(../assets/curso/temas/tema2/chevron-right2.png)
+
+  .slyder-a__bullets__item
+    background-color: #FFFFFF
+    @media (max-width: 450px)
+      margin: 0 5px
+    @media (max-width: 400px)
+      margin: 0 4px
+
+  .slyder-a__bullets__item--active
+    background-color: #09614D
+
 .tema3
   //linea de tiempo d
 
@@ -158,6 +195,12 @@
     color: #000
 
 .tema4
+  .tarjeta.tarjeta--BG07
+    background-image: url("../assets/curso/temas/BG07.svg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
   .tabs-a__tab
     background-color: #D1E1DD
 
@@ -251,6 +294,58 @@
   .cajon.cajon.color-primario
     background-color: #FEF7EB
 
+  ///////// Card hover --------------------------------------
+  .crd_hover_txt
+    position: relative  
+    padding: 0 !important
+    overflow: hidden !important  
+    &:hover    
+      .crd_hover_txt--body   
+        background-color: #D1E1DD
+        transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+        transform: translateY(0)
+        h5.t2
+          color: $black
+          display: block
+          background-image: url('../assets/curso/temas/ico-up.svg')
+          background-size: 7% 100%
+          background-repeat: no-repeat
+          padding-left: 1.8rem
+        h5.t1
+          display: none
+          
+        @media (max-width:767px)  
+          p
+            font-size: 0.85em
+          h5.t2
+            background-size: 5.5% 100%
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #D1E1DD
+    h5.t2
+        display: none
+    h5.t1
+      display: block
+      color: $black
+      cursor: pointer
+      background-image: url('../assets/curso/temas/ico-down.svg')
+      background-size: 8% 100%
+      background-repeat: no-repeat
+      padding-left: 1.8rem
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  .crd_hover_txt .crd_hover_txt--body
+    padding: 1.5rem 0.8rem !important
+
 .tema5
   // configuración para 3 tarjetas
   .tarjetas-up
@@ -318,6 +413,58 @@
       .linea-tiempo-d__item__content
         background-color: #FFE9DF !important
 
+  ///////// Card hover --------------------------------------
+  .crd_hover_txt
+    position: relative  
+    padding: 0 !important
+    overflow: hidden !important  
+    &:hover    
+      .crd_hover_txt--body   
+        background-color: #D1E1DD
+        transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+        transform: translateY(0)
+        h5.t2
+          color: $black
+          display: block
+          background-image: url('../assets/curso/temas/ico-up.svg')
+          background-size: 7% 100%
+          background-repeat: no-repeat
+          padding-left: 1.8rem
+        h5.t1
+          display: none
+          
+        @media (max-width:767px)  
+          p
+            font-size: 0.85em
+          h5.t2
+            background-size: 5.5% 100%
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #D1E1DD
+    h5.t2
+        display: none
+    h5.t1
+      display: block
+      color: $black
+      cursor: pointer
+      background-image: url('../assets/curso/temas/ico-down.svg')
+      background-size: 8% 100%
+      background-repeat: no-repeat
+      padding-left: 1.8rem
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  .crd_hover_txt .crd_hover_txt--body
+    padding: 1.5rem 0.8rem !important
+
 .tema6
   //linea de tiempo d
 
@@ -368,3 +515,26 @@
       background-color: #D1E1DD
   .tarjeta.tarjeta--gris
     background-color: #D1E1DD
+
+  //Fondo Slyder A
+  .tarjeta.tarjeta--azul
+    background-image: url(../assets/curso/temas/BG08.svg)
+    background-repeat: no-repeat
+    background-size: cover
+  
+  //Slyder
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #09614D
+    color: #FFFF
+    border: none
+    background-image: url(../assets/curso/temas/tema7/chevron-right2.png)
+
+  .slyder-a__bullets__item
+    background-color: #FFFFFF
+    @media (max-width: 450px)
+      margin: 0 5px
+    @media (max-width: 400px)
+      margin: 0 4px
+
+  .slyder-a__bullets__item--active
+    background-color: #09614D

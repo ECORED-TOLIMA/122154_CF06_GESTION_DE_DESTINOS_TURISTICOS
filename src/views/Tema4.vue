@@ -15,41 +15,42 @@
     p La planificación turística es un proceso estratégico integral orientado a coordinar, organizar y gestionar el desarrollo de actividades turísticas de manera sostenible. Este enfoque busca maximizar los beneficios económicos, sociales y culturales, al tiempo que minimiza los impactos negativos en el entorno y las comunidades receptoras. A través de este proceso, se elaboran planes que no solo atienden las necesidades actuales de los destinos, sino que también se anticipan a las demandas futuras, equilibrando el desarrollo con la conservación de los recursos naturales y el respeto por las dinámicas locales.
     p.mb-5 La planificación turística sostenible incluye los siguientes elementos clave:
 
-    .row.justify-content-center.mb-3(data-aos="zoom-in")
-      .col-lg-3.col-12.mb-3.d-lg-flex.d-none
-        figure
-          img(src='@/assets/curso/temas/tema4/img-02.svg', alt='Imagen decorativa')
-      .col-lg-9.col-12.mb-3
-        TabsA.color-acento-botones.mb-5
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis del entorno")
-            p Se realiza una evaluación exhaustiva de los recursos naturales, culturales, económicos y sociales del destino. Este análisis considera también los intereses y expectativas de los actores involucrados, como la comunidad local, las autoridades, los empresarios y los turistas.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema4/img-011.svg' alt='AvatarTop')
+          h4.text-center Análisis del entorno
+          p.text-center Se realiza una evaluación exhaustiva de los recursos naturales, culturales, económicos y sociales del destino. Este análisis considera también los intereses y expectativas de los actores involucrados, como la comunidad local, las autoridades, los empresarios y los turistas.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Formulación de objetivos y estrategias")
-            p Este paso define metas específicas para el desarrollo turístico, alineadas con la visión de sostenibilidad del destino. Incluye estrategias para atraer turistas, preservar el patrimonio, fortalecer la economía local y garantizar un crecimiento equilibrado.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema4/img-012.svg' alt='AvatarTop')
+          h4.text-center Formulación de objetivos y estrategias
+          p.text-center Este paso define metas específicas para el desarrollo turístico, alineadas con la visión de sostenibilidad del destino. Incluye estrategias para atraer turistas, preservar el patrimonio, fortalecer la economía local y garantizar un crecimiento equilibrado.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema4/img-013.svg' alt='AvatarTop')
+          h4.text-center Participación de la comunidad
+          p.text-center Es esencial integrar a las comunidades locales en el proceso de planificación, asegurando que sus intereses sean considerados y que los beneficios del turismo mejoren su calidad de vida.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema4/img-014.svg' alt='AvatarTop')
+          h4.text-center Implementación de prácticas sostenibles
+          p.text-center Se incorporan políticas y métodos que minimicen el impacto ambiental, como el uso eficiente de los recursos, el diseño de infraestructuras respetuosas con el entorno y la promoción de actividades turísticas responsables.
           
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Participación de la comunidad")
-            p Es esencial integrar a las comunidades locales en el proceso de planificación, asegurando que sus intereses sean considerados y que los beneficios del turismo mejoren su calidad de vida.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Implementación de prácticas sostenibles")
-            p Se incorporan políticas y métodos que minimicen el impacto ambiental, como el uso eficiente de los recursos, el diseño de infraestructuras respetuosas con el entorno y la promoción de actividades turísticas responsables.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Monitoreo y evaluación continua")
-            p Se realiza un seguimiento de los resultados obtenidos, ajustando las estrategias según las necesidades emergentes y las tendencias del mercado. Este enfoque asegura la mejora continua y la adaptabilidad del plan.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema4/img-015.svg' alt='AvatarTop')
+          h4.text-center Monitoreo y evaluación continua
+          p.text-center Se realiza un seguimiento de los resultados obtenidos, ajustando las estrategias según las necesidades emergentes y las tendencias del mercado. Este enfoque asegura la mejora continua y la adaptabilidad del plan.
 
     p.mb-5 La planificación turística sostenible es fundamental para garantizar un desarrollo armónico y equilibrado, que respalde el bienestar de las comunidades locales, proteja los recursos naturales y brinde experiencias enriquecedoras a los visitantes.
 
@@ -64,17 +65,17 @@
       .d-flex.flex-wrap.align-items-center.mb-5
         .col-xl-8.order-2.order-xl-1.pe-xl-4
           LineaTiempoD.color-secundario.linea-tiempo-edit.mb-4(data-aos="zoom-in-down")
-            p.text-small(numero="1" titulo="Enfoque global") Este enfoque integra el turismo como parte del desarrollo regional, considerándolo una actividad que interactúa con otros sectores económicos, sociales y culturales. Se busca coordinar esfuerzos entre las partes interesadas, como gobiernos, empresarios y comunidades locales, para fomentar un desarrollo equilibrado. Este enfoque promueve una visión amplia que abarca desde la infraestructura hasta el impacto económico y social del turismo en la región.
+            p(numero="1" titulo="Enfoque global") Este enfoque integra el turismo como parte del desarrollo regional, considerándolo una actividad que interactúa con otros sectores económicos, sociales y culturales. Se busca coordinar esfuerzos entre las partes interesadas, como gobiernos, empresarios y comunidades locales, para fomentar un desarrollo equilibrado. Este enfoque promueve una visión amplia que abarca desde la infraestructura hasta el impacto económico y social del turismo en la región.
 
-            p.text-small(numero="2" titulo="Enfoque sostenible") Prioriza la preservación del medio ambiente, la conservación del patrimonio cultural y la inclusión social en todas las etapas del desarrollo turístico. Este enfoque se centra en garantizar que las actividades turísticas no comprometan la capacidad de los recursos naturales ni las dinámicas sociales locales. Además, busca distribuir los beneficios de manera equitativa, promoviendo un equilibrio entre las necesidades de los turistas, la comunidad y el entorno.
+            p(numero="2" titulo="Enfoque sostenible") Prioriza la preservación del medio ambiente, la conservación del patrimonio cultural y la inclusión social en todas las etapas del desarrollo turístico. Este enfoque se centra en garantizar que las actividades turísticas no comprometan la capacidad de los recursos naturales ni las dinámicas sociales locales. Además, busca distribuir los beneficios de manera equitativa, promoviendo un equilibrio entre las necesidades de los turistas, la comunidad y el entorno.
 
-            p.text-small(numero="3" titulo="Enfoque participativo") Este enfoque destaca la importancia de la participación activa de la comunidad local en el proceso de planificación turística. A través de consultas, talleres y reuniones, se incorporan las necesidades, opiniones y expectativas de los residentes en el diseño de estrategias y proyectos. Esto no solo fortalece el sentido de pertenencia, sino que también garantiza que los beneficios del turismo respondan a los intereses locales y se minimicen los impactos negativos.
+            p(numero="3" titulo="Enfoque participativo") Este enfoque destaca la importancia de la participación activa de la comunidad local en el proceso de planificación turística. A través de consultas, talleres y reuniones, se incorporan las necesidades, opiniones y expectativas de los residentes en el diseño de estrategias y proyectos. Esto no solo fortalece el sentido de pertenencia, sino que también garantiza que los beneficios del turismo respondan a los intereses locales y se minimicen los impactos negativos.
 
-            p.text-small(numero="4" titulo="Enfoque cultural") Considera la identidad, tradiciones y patrimonio del destino como ejes centrales de la planificación turística. Este enfoque fomenta la valorización de la cultura local, asegurando que las actividades turísticas sean compatibles con las prácticas culturales de las comunidades. También busca proteger los sitios históricos y promover el intercambio respetuoso entre turistas y residentes.
+            p(numero="4" titulo="Enfoque cultural") Considera la identidad, tradiciones y patrimonio del destino como ejes centrales de la planificación turística. Este enfoque fomenta la valorización de la cultura local, asegurando que las actividades turísticas sean compatibles con las prácticas culturales de las comunidades. También busca proteger los sitios históricos y promover el intercambio respetuoso entre turistas y residentes.
 
-            p.text-small(numero="5" titulo="Enfoque económico") Se enfoca en maximizar los beneficios financieros del turismo, creando empleos, aumentando los ingresos locales y promoviendo inversiones. Este enfoque incluye la diversificación de actividades turísticas para asegurar ingresos sostenibles y la implementación de políticas que fomenten la equidad económica.
+            p(numero="5" titulo="Enfoque económico") Se enfoca en maximizar los beneficios financieros del turismo, creando empleos, aumentando los ingresos locales y promoviendo inversiones. Este enfoque incluye la diversificación de actividades turísticas para asegurar ingresos sostenibles y la implementación de políticas que fomenten la equidad económica.
 
-        img.col-xl-4.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src='@/assets/curso/temas/tema4/img-03.svg', alt='Rutinas de limpieza')
+        img.col-xl-4.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src='@/assets/curso/temas/tema4/img-03.png', alt='Rutinas de limpieza')
     
     p.mb-5 Al combinar estos enfoques, la planificación turística puede adaptarse de manera integral, logrando un equilibrio entre el desarrollo económico, la sostenibilidad ambiental y el bienestar social. Esto permite que los destinos sean atractivos, responsables y resilientes a largo plazo.
 
@@ -164,7 +165,41 @@
       
     p.mb-5 La medición de la sostenibilidad turística es esencial para evaluar el impacto de las actividades turísticas en los ámbitos económico, social y ambiental, y garantizar un desarrollo responsable. En este contexto, es importante identificar las herramientas de medición más utilizadas:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/img-08.png", alt="")
+          .crd_hover_txt--body
+            h5.t1.mb-3 Índice de Sostenibilidad Turística
+            h5.t2.mb-2 Índice de Sostenibilidad Turística
+            p.mb-0 Permite analizar el desempeño de un destino en términos de gestión ambiental, impacto social y beneficios económicos.
+      
+      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/img-09.png", alt="")
+          .crd_hover_txt--body
+            h5.t1.mb-3 Evaluaciones de Impacto Ambiental (EIA)
+            h5.t2.mb-2 Evaluaciones de Impacto Ambiental (EIA)
+            p.mb-0 Identifican los efectos de las actividades turísticas sobre el medio ambiente y sugieren medidas correctivas.
+      
+      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/img-010.png", alt="")
+          .crd_hover_txt--body
+            h5.t1.mb-3 Encuestas de percepción comunitaria
+            h5.t2.mb-2 Encuestas de percepción comunitaria
+            p.mb-0 Recogen opiniones de la población local sobre los beneficios y problemas asociados al turismo, permitiendo ajustes en la planificación.
+    
+    //.row.justify-content-center.mb-5(data-aos="flip-up")
       .col-xxl-4.col-lg-6.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")

@@ -20,7 +20,7 @@
 
           .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/temas/introduccion/img-01.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/introduccion/img-01.png', alt='Imagen decorativa')
     
     figure.mb-5(data-aos="zoom-in")
       .video

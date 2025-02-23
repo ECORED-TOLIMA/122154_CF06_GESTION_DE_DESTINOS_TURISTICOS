@@ -9,8 +9,12 @@
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
       tema: 'Desarrollo de oportunidades turísticas en el territorio.',
@@ -22,14 +26,14 @@ export default {
         {
           id: 1,
           texto: 'El desarrollo sostenible solo se enfoca en la economía.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
+            'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -37,11 +41,11 @@ export default {
           id: 2,
           texto:
             'El modelo de “Economía Circular” promueve la reducción y reutilización de recursos.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -52,11 +56,11 @@ export default {
           id: 3,
           texto:
             'La planificación turística no necesita considerar a la comunidad local.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -67,11 +71,11 @@ export default {
           id: 4,
           texto:
             'Los impactos del turismo pueden ser tanto positivos como negativos.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -82,11 +86,11 @@ export default {
           id: 5,
           texto:
             'El turismo regenerativo busca solo minimizar el impacto negativo del turismo.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -97,11 +101,11 @@ export default {
           id: 6,
           texto:
             'La gestión de destinos turísticos debe incluir indicadores de desempeño.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -112,11 +116,11 @@ export default {
           id: 7,
           texto:
             'El desarrollo humano en el turismo se refiere únicamente a mejorar la infraestructura.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -127,11 +131,11 @@ export default {
           id: 8,
           texto:
             'Un código de turismo, es un conjunto de normas que promueven prácticas responsables.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -142,11 +146,11 @@ export default {
           id: 9,
           texto:
             'El análisis DOFA es una herramienta que se usa únicamente en la gestión empresarial.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -157,11 +161,11 @@ export default {
           id: 10,
           texto:
             'El turismo sostenible garantiza que todos los beneficios económicos vayan exclusivamente a los turistas.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -172,11 +176,11 @@ export default {
           id: 11,
           texto:
             'El desarrollo sostenible solo se refiere a la protección del medio ambiente.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -187,11 +191,11 @@ export default {
           id: 12,
           texto:
             'El modelo de “Capital Natural” se enfoca en la gestión de recursos naturales.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -202,11 +206,11 @@ export default {
           id: 13,
           texto:
             'El turismo sostenible busca maximizar los beneficios económicos sin considerar el impacto social.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -217,11 +221,11 @@ export default {
           id: 14,
           texto:
             'Los impactos del turismo pueden ser negativos, como la congestión y la erosión cultural.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -232,11 +236,11 @@ export default {
           id: 15,
           texto:
             'La planificación turística es un proceso que debe incluir la participación de la comunidad local.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -247,11 +251,11 @@ export default {
           id: 16,
           texto:
             'El turismo regenerativo se centra únicamente en la conservación ambiental.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -262,11 +266,11 @@ export default {
           id: 17,
           texto:
             'Las cartas de turismo sostenible, son documentos que establecen compromisos con prácticas responsables.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -277,11 +281,11 @@ export default {
           id: 18,
           texto:
             'El análisis DOFA es una herramienta útil para evaluar oportunidades en el turismo.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -292,11 +296,11 @@ export default {
           id: 19,
           texto:
             'Los códigos de turismo son opcionales y no influyen en la sostenibilidad.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',
@@ -307,11 +311,11 @@ export default {
           id: 20,
           texto:
             'El desarrollo humano en turismo se refiere solo a la infraestructura de servicios.',
-          imagen: require('@/assets/actividad/imagen1.jpg'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre el desarrollo de oportunidades turísticas en el territorio.',

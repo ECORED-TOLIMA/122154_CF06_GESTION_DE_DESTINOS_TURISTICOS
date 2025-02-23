@@ -41,7 +41,7 @@
             p Promover la cooperación entre el sector público, privado y la comunidad local para garantizar la implementación efectiva de las estrategias.
 
         .row.justify-content-center.mb-5(data-aos="flip-up")
-          .col-sm-9.col-md-8.col-10.movil
+          .col-sm-9.col-md-8.col-11.movil
             figure
               img(src='@/assets/curso/temas/tema5/img-02-02.svg', alt='Imagen decorativa')
 
@@ -52,7 +52,41 @@
 
     p.mb-5 La toma de decisiones en turismo es fundamental para garantizar que las estrategias implementadas sean efectivas y alineadas con los objetivos de desarrollo sostenible. Los elementos clave de este proceso incluyen:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/img-03.png", alt="")
+          .crd_hover_txt--body
+            h5.t1.mb-3 Uso de datos objetivos
+            h5.t2.mb-2 Uso de datos objetivos
+            p.mb-0 Basar las decisiones en estudios de mercado, análisis de tendencias y evaluaciones de impacto que permitan diseñar estrategias informadas y adaptadas a las necesidades del destino.
+
+      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/img-04.png", alt="")
+          .crd_hover_txt--body
+            h5.t1.mb-3 Participación de actores clave
+            h5.t2.mb-2 Participación de actores clave
+            p.mb-0 Incluir en el proceso de decisión a comunidades locales, empresas del sector, turistas y autoridades gubernamentales, promoviendo el consenso y el apoyo a los proyectos.
+      
+      .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema5/img-05.png", alt="")
+          .crd_hover_txt--body
+            h5.t1.mb-3 Flexibilidad y adaptación
+            h5.t2.mb-2 Flexibilidad y adaptación
+            p.mb-0 Implementar mecanismos que permitan ajustar las estrategias ante cambios en las condiciones del mercado, el entorno o las regulaciones, asegurando la resiliencia del destino.
+
+    //.row.justify-content-center.mb-5(data-aos="flip-up")
       .col-xxl-4.col-lg-6.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
@@ -100,17 +134,17 @@
       .d-flex.flex-wrap.align-items-center.mb-5
         .col-xl-6.order-2.order-xl-1.pe-xl-4
           LineaTiempoD.color-secundario.linea-tiempo-edit.mb-4(data-aos="zoom-in-down")
-            p.text-small(numero="1" titulo="Planes de <em>marketing</em>") Documentos estratégicos que establecen cómo posicionar el destino, atraer visitantes y mejorar su experiencia, considerando aspectos como campañas de promoción, segmentación de mercados y fortalecimiento de la identidad del destino.
+            p(numero="1" titulo="Planes de <em>marketing</em>") Documentos estratégicos que establecen cómo posicionar el destino, atraer visitantes y mejorar su experiencia, considerando aspectos como campañas de promoción, segmentación de mercados y fortalecimiento de la identidad del destino.
 
-            p.text-small(numero="2" titulo="Indicadores de desempeño") Métricas como ocupación hotelera, satisfacción de los turistas, impacto económico y preservación ambiental permiten evaluar el éxito de las estrategias y tomar decisiones basadas en datos.
+            p(numero="2" titulo="Indicadores de desempeño") Métricas como ocupación hotelera, satisfacción de los turistas, impacto económico y preservación ambiental permiten evaluar el éxito de las estrategias y tomar decisiones basadas en datos.
 
-            p.text-small(numero="3" titulo="Tecnología y plataformas digitales") Las herramientas digitales facilitan la promoción del destino, la interacción con los turistas y la gestión de la reputación <em>online.</em> Aplicaciones móviles y sitios <em>web</em> mejoran la experiencia de los visitantes, facilitando el acceso a información y servicios.
+            p(numero="3" titulo="Tecnología y plataformas digitales") Las herramientas digitales facilitan la promoción del destino, la interacción con los turistas y la gestión de la reputación <em>online.</em> Aplicaciones móviles y sitios <em>web</em> mejoran la experiencia de los visitantes, facilitando el acceso a información y servicios.
 
-            p.text-small(numero="4" titulo="Mapeo de recursos") Identificación de atractivos y recursos clave del destino, evaluando su potencial para diversificar y fortalecer la oferta turística.
+            p(numero="4" titulo="Mapeo de recursos") Identificación de atractivos y recursos clave del destino, evaluando su potencial para diversificar y fortalecer la oferta turística.
 
-            p.text-small(numero="5" titulo="Modelos de proyección") Herramientas predictivas que ayudan a anticipar tendencias y planificar estrategias de largo plazo.
+            p(numero="5" titulo="Modelos de proyección") Herramientas predictivas que ayudan a anticipar tendencias y planificar estrategias de largo plazo.
 
-        img.col-xl-6.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src='@/assets/curso/temas/tema5/img-06.svg', alt='Rutinas de limpieza')
+        img.col-xl-6.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src='@/assets/curso/temas/tema5/img-06.png', alt='Rutinas de limpieza')
 
     p.mb-5 La combinación de estos enfoques y herramientas permite crear estrategias sólidas que contribuyan al desarrollo turístico sostenible, garantizando la competitividad y el bienestar de los territorios y sus comunidades.
 

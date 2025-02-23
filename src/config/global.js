@@ -1,10 +1,9 @@
 export default {
   global: {
-    componenteFormativo:
-      'Desarrollo de oportunidades turísticas en el territorio',
-    descripcionCurso:
+    Name: 'Desarrollo de oportunidades turísticas en el territorio',
+    Description:
       'Esta unidad temática explora estrategias sostenibles para desarrollar oportunidades turísticas en el territorio, abarcando modelos de gestión, criterios de valoración, planificación y manejo estratégico. Además, analiza impactos, efectos y enfoques innovadores como el turismo regenerativo, proporcionando herramientas para la toma de decisiones responsables y efectivas.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
@@ -63,7 +62,7 @@ export default {
           {
             numero: '2.2',
             titulo: 'Código de turismo',
-            hash: 't_3_2',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
@@ -214,7 +213,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_06_122154_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -230,107 +229,22 @@ export default {
   },
   complementario: [
     {
-      tema: '2. Turismo sostenible',
-      referencia:
-        'Ecosistema de Recursos Educativos SENA. (2024). Turismo sostenible y competitivo [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=I9o_FeS2oGM',
-    },
-    {
-      tema: '6.2. Segmentación y demanda turística',
-      referencia:
-        'Ecosistema de Recursos Educativos SENA. (2023). Los tipos de demanda en el mercado [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=kmVVqcr17hM',
-    },
-    {
-      tema: '7. Innovación y tecnología en turismo',
-      referencia:
-        'Ecosistema de Recursos Educativos SENA. (2023). Estrategia de innovación [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=fI8HASIil-s',
+      tema: '',
+      referencia: '',
+      tipo: 'Sitio web',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Desarrollo sostenible',
-      significado:
-        'modelo de crecimiento que satisface las necesidades actuales sin comprometer los recursos necesarios para futuras generaciones.',
-    },
-    {
-      termino: 'Economía circular',
-      significado:
-        'modelo económico que reduce el desperdicio y mantiene los recursos en uso, promoviendo la eficiencia y la sostenibilidad.',
-    },
-    {
-      termino: 'Impacto ambiental',
-      significado:
-        'efecto de las actividades humanas sobre el medio ambiente, incluyendo el uso de recursos, emisiones y residuos generados.',
-    },
-    {
-      termino: 'Inclusión social',
-      significado:
-        'principio que promueve la participación equitativa de todos los grupos en la sociedad, reduciendo desigualdades y asegurando acceso a servicios básicos.',
-    },
-    {
-      termino: 'Indicadores de desempeño',
-      significado:
-        'métricas usadas para evaluar el éxito de iniciativas turísticas en áreas como ocupación, ingresos y satisfacción del visitante.',
-    },
-    {
-      termino: 'Modelo de Capital Natural',
-      significado:
-        'enfoque que sugiere gestionar los recursos naturales manteniendo su capacidad regenerativa para un uso sostenible a largo plazo.',
-    },
-    {
-      termino: 'Participación comunitaria',
-      significado:
-        'integración de las comunidades locales en la toma de decisiones sobre proyectos que afectan su territorio y cultura.',
-    },
-    {
-      termino: 'Planificación turística',
-      significado:
-        'proceso de organizar y gestionar el desarrollo turístico para maximizar beneficios y minimizar efectos negativos en el entorno y la comunidad.',
-    },
-    {
-      termino: 'Turismo regenerativo',
-      significado:
-        'enfoque turístico que busca no solo minimizar el impacto ambiental, sino restaurar y mejorar los ecosistemas y comunidades locales afectadas.',
-    },
-    {
-      termino: 'Turismo sostenible',
-      significado:
-        'turismo que minimiza el impacto negativo en el entorno natural y cultural, promoviendo beneficios económicos y sociales para las comunidades locales.',
+      termino: 'Término',
+      significado: 'Definición',
     },
   ],
   referencias: [
     {
-      referencia:
-        'Asana.com. (2022). 6 pasos para crear la mejor estrategia creativa.',
-      link: 'https://asana.com/es/resources/creative-strategy',
-    },
-    {
-      referencia:
-        'Avecintel. (s. f.). ¿Qué debemos entender por turismo sostenible?',
-      link:
-        'https://www.misrevistas.com/avecintel/notas/241/que-debemos-entender-por-turismo-sostenible',
-    },
-    {
-      referencia:
-        'Comisión Mundial sobre el Medio Ambiente y el Desarrollo. (1987). Nuestro futuro común. Oxford University Press.',
-    },
-    {
-      referencia: 'Cuales.FM. (2016). Dimensiones del desarrollo sustentable.',
-      link:
-        'https://www.cuales.fm/wp-content/uploads/2016/02/dimensiones-desarrollo-sustentable.png',
-    },
-    {
-      referencia:
-        'Ramírez, J. (2021). Desarrollo turístico en Colombia: Un enfoque estratégico. Editorial Pontificia Universidad Javeriana.',
-    },
-    {
-      referencia:
-        'Rojas, C. (2017). Territorio y desarrollo sostenible en Colombia. Editorial Pontificia Universidad Javeriana.',
+      referencia: '',
+      link: '',
     },
   ],
   creditos: [
@@ -338,14 +252,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          nombre: 'Nombre completo',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdrón',
+          nombre: 'Nombre completo',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Centro XYZ - Regional XYZ',
         },
       ],
     },
@@ -353,15 +267,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Juan Carlos Camargo Solano',
-          cargo: 'Experto temático',
-          centro:
-            'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Viviana Esperanza Herrera Quiñonez',
-          cargo: 'Evaluadora instruccional ',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Nombre responsable',
+          cargo: 'Nombre del rol',
+          centro: 'Centro XYZ - Regional XYZ',
         },
       ],
     },
@@ -369,34 +277,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Oscar Ivan Uribe Ortiz',
-          cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Nombre responsable',
+          cargo: 'Diseñador de contenidos',
+          centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Jose Yobani Penagos Mora',
-          cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Nombre responsable',
+          cargo: 'Desarrollador <i>full stack</i>',
+          centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
-          cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          nombre: 'Nombre responsable',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Centro XYZ - Regional XYZ',
         },
       ],
     },
@@ -404,24 +297,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Nombre responsable',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
+          nombre: 'Nombre responsable',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Javier Mauricio Oviedo ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Centro XYZ - Regional XYZ',
         },
       ],
     },
@@ -432,25 +315,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

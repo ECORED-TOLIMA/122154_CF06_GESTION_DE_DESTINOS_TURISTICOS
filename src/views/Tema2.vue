@@ -33,7 +33,7 @@
               
       .col-lg-4.col-12.mb-5.d-lg-flex.d-none(data-aos="fade-up")
         figure
-          img(src='@/assets/curso/temas/tema2/img-02.svg', alt='Rutinas de limpieza')
+          img(src='@/assets/curso/temas/tema2/img-02.png', alt='Rutinas de limpieza')
 
 
     p.mb-5 El turismo sostenible es una vía para lograr un equilibrio entre el disfrute y la conservación, promoviendo el respeto mutuo entre visitantes y residentes y garantizando que los beneficios del turismo se distribuyan de manera justa y responsable.
@@ -45,10 +45,72 @@
 
     p.mb-3 El turismo sostenible se evalúa mediante diversos criterios que garantizan un desarrollo equilibrado, responsable y beneficioso tanto para el entorno como para las comunidades. Entre los principales se encuentran:
 
-    .row.justify-content-center.p-md-5.p-4(data-aos="flip-up")
-      .col-12
-        .tarjeta.tarjeta--BG08.p-4
-          SlyderB.p-4(:datos="datosSlyder")
+    .tarjeta.tarjeta--azul.mb-5(data-aos="fade-left")
+      .p-4.p-lg-5
+        SlyderA(tipo="b")
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Impacto ambiental]
+              p.mb-0 Este criterio analiza el consumo de recursos naturales, la gestión de residuos y las emisiones de carbono asociadas a las actividades turísticas. Promueve prácticas que minimicen el daño ecológico, como el uso de energías renovables, la gestión adecuada de los desechos y la protección de la biodiversidad.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-03.png', style="width: 450px" ,alt='').m-auto
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Beneficios sociales]
+              p.mb-0 Se evalúa la contribución del turismo al bienestar de la comunidad local, considerando la creación de empleo, el fortalecimiento del tejido social y el respeto por las culturas y tradiciones autóctonas. Este criterio prioriza que las actividades turísticas no alteren de forma negativa la vida cotidiana de los residentes ni comprometan su identidad cultural.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-04.png', style="width: 450px" ,alt='').m-auto
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Viabilidad económica]
+              p.mb-0 Este aspecto examina la sostenibilidad financiera y la rentabilidad a largo plazo de las iniciativas turísticas. Busca garantizar que las actividades sean económicamente viables sin comprometer los recursos futuros ni generar desigualdades económicas en las comunidades receptoras.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-05.png', style="width: 450px" ,alt='').m-auto 
+
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Participación comunitaria]
+              p.mb-0 Evalúa el nivel de involucramiento de las comunidades locales en la planificación, toma de decisiones y gestión de las actividades turísticas. Un turismo sostenible requiere que las comunidades sean beneficiarias activas, no solo receptoras pasivas.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-06.png', style="width: 450px" ,alt='').m-auto 
+
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Capacidad de carga]
+              p.mb-0 Considera el equilibrio entre el número de visitantes que un destino puede manejar y la preservación de su entorno natural, infraestructura y calidad de vida de los residentes. Esto evita la saturación turística y sus efectos negativos.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-07.png', style="width: 450px" ,alt='').m-auto 
+
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Educación y sensibilización]
+              p.mb-0 Examina las iniciativas para informar y educar a turistas y operadores sobre la importancia de la sostenibilidad, fomentando comportamientos responsables que reduzcan los impactos negativos.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-08.png', style="width: 450px" ,alt='').m-auto 
+
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Innovación tecnológica y prácticas responsables]
+              p.mb-0 Analiza cómo se emplea la tecnología para optimizar los recursos, reducir impactos ambientales y mejorar la experiencia turística, como el uso de aplicaciones para la gestión de destinos y tecnologías de eficiencia energética.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-09.png', style="width: 450px" ,alt='').m-auto 
+
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p #[b Evaluación de riesgos]
+              p.mb-0 Incluye la capacidad de anticipar y mitigar posibles riesgos ambientales, sociales o económicos derivados de las actividades turísticas, como el cambio climático o la degradación cultural.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img-010.png', style="width: 450px" ,alt='').m-auto 
 
     p.mb-5 Los criterios de valoración del turismo sostenible permiten identificar cómo las actividades turísticas pueden influir positivamente en los destinos y comunidades receptoras. Estos criterios no solo buscan minimizar los efectos negativos, sino también potenciar beneficios tangibles en términos ambientales, sociales y económicos.
 
@@ -122,7 +184,7 @@
 
         .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/temas/tema2/img-017.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img-017.png', alt='Imagen decorativa')
 
         .col-lg-6.col-12.mb-3(data-aos="fade-right")
           p Otro aspecto central es el respeto y reconocimiento a las comunidades indígenas y locales, asegurando que sus derechos, tradiciones y culturas sean valorados y protegidos. Esto incluye fomentar su participación en la toma de decisiones turísticas y asegurar que reciban beneficios económicos justos por su contribución al sector.
