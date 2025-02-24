@@ -64,13 +64,13 @@ const router = new VueRouter({
           path: 'tema6',
           name: 'tema6',
           component: () =>
-            import(/* webpackChunkName: "tema5" */ '../views/Tema6.vue'),
+            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
         },
         {
           path: 'tema7',
           name: 'tema7',
           component: () =>
-            import(/* webpackChunkName: "tema5" */ '../views/Tema7.vue'),
+            import(/* webpackChunkName: "tema7" */ '../views/Tema7.vue'),
         },
       ],
     },
