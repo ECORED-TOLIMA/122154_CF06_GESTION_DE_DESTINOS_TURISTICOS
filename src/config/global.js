@@ -272,6 +272,11 @@ export default {
           cargo: 'Experta temática',
           centro: 'Centro Comercio y Servicios - Regional Risaralda',
         },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Comercio y Servicios - Regional Tolima',
+        },
       ],
     },
     {
