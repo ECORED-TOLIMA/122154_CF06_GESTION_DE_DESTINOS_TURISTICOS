@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Desarrollo de oportunidades turísticas en el territorio',
     Description:
-      'Esta unidad temática explora estrategias sostenibles para desarrollar oportunidades turísticas en el territorio, abarcando modelos de gestión, criterios de valoración, planificación y manejo estratégico. Además, analiza impactos, efectos y enfoques innovadores como el turismo regenerativo, proporcionando herramientas para la toma de decisiones responsables y efectivas.',
+      'Este componente formativo explora estrategias sostenibles para desarrollar oportunidades turísticas en el territorio, abarcando modelos de gestión, criterios de valoración, planificación y manejo estratégico. Además, analiza impactos, efectos y enfoques innovadores como el turismo regenerativo, proporcionando herramientas para la toma de decisiones responsables y efectivas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -229,22 +229,107 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Turismo sostenible',
+      referencia:
+        'Ecosistema de Recursos Educativos SENA. (2024). Turismo sostenible y competitivo [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=I9o_FeS2oGM',
+    },
+    {
+      tema: 'Segmentación y demanda turística',
+      referencia:
+        'Ecosistema de Recursos Educativos SENA. (2023). Los tipos de demanda en el mercado [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=kmVVqcr17hM',
+    },
+    {
+      tema: 'Innovación y tecnología en turismo',
+      referencia:
+        'Ecosistema de Recursos Educativos SENA. (2023). Estrategia de innovación [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fI8HASIil-s',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Desarrollo sostenible',
+      significado:
+        'modelo de crecimiento que satisface las necesidades actuales sin comprometer los recursos necesarios para futuras generaciones.',
+    },
+    {
+      termino: 'Economía circular',
+      significado:
+        'modelo económico que reduce el desperdicio y mantiene los recursos en uso, promoviendo la eficiencia y la sostenibilidad.',
+    },
+    {
+      termino: 'Impacto ambiental',
+      significado:
+        'efecto de las actividades humanas sobre el medio ambiente, incluyendo el uso de recursos, emisiones y residuos generados.',
+    },
+    {
+      termino: 'Inclusión social',
+      significado:
+        'principio que promueve la participación equitativa de todos los grupos en la sociedad, reduciendo desigualdades y asegurando acceso a servicios básicos.',
+    },
+    {
+      termino: 'Indicadores de desempeño',
+      significado:
+        'métricas usadas para evaluar el éxito de iniciativas turísticas en áreas como ocupación, ingresos y satisfacción del visitante.',
+    },
+    {
+      termino: 'Modelo de Capital Natural',
+      significado:
+        'enfoque que sugiere gestionar los recursos naturales manteniendo su capacidad regenerativa para un uso sostenible a largo plazo.',
+    },
+    {
+      termino: 'Participación comunitaria',
+      significado:
+        'integración de las comunidades locales en la toma de decisiones sobre proyectos que afectan su territorio y cultura.',
+    },
+    {
+      termino: 'Planificación turística',
+      significado:
+        'proceso de organizar y gestionar el desarrollo turístico para maximizar beneficios y minimizar efectos negativos en el entorno y la comunidad.',
+    },
+    {
+      termino: 'Turismo regenerativo',
+      significado:
+        'enfoque turístico que busca no solo minimizar el impacto ambiental, sino restaurar y mejorar los ecosistemas y comunidades locales afectadas.',
+    },
+    {
+      termino: 'Turismo sostenible',
+      significado:
+        'turismo que minimiza el impacto negativo en el entorno natural y cultural, promoviendo beneficios económicos y sociales para las comunidades locales.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Asana.com. (2022). 6 pasos para crear la mejor estrategia creativa.',
+      link: 'https://asana.com/es/resources/creative-strategy',
+    },
+    {
+      referencia:
+        'Avecintel. (s. f.). ¿Qué debemos entender por turismo sostenible?',
+      link:
+        'https://www.misrevistas.com/avecintel/notas/241/que-debemos-entender-por-turismo-sostenible',
+    },
+    {
+      referencia:
+        'Comisión Mundial sobre el Medio Ambiente y el Desarrollo. (1987). Nuestro futuro común. Oxford University Press.',
+    },
+    {
+      referencia: 'Cuales.FM. (2016). Dimensiones del desarrollo sustentable.',
+      link:
+        'https://www.cuales.fm/wp-content/uploads/2016/02/dimensiones-desarrollo-sustentable.png',
+    },
+    {
+      referencia:
+        'Ramírez, J. (2021). Desarrollo turístico en Colombia: Un enfoque estratégico. Editorial Pontificia Universidad Javeriana.',
+    },
+    {
+      referencia:
+        'Rojas, C. (2017). Territorio y desarrollo sostenible en Colombia. Editorial Pontificia Universidad Javeriana.',
     },
   ],
   creditos: [

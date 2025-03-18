@@ -35,7 +35,7 @@
             p Realizar un diagnóstico de las condiciones internas y externas, evaluando recursos naturales, infraestructura, tendencias de mercado, y aspectos culturales y sociales. Este análisis permite anticipar desafíos, identificar oportunidades y definir prioridades de acción.
 
           .tarjeta.tarjeta--blanca.p-3(x="58.5%" y="84%" numero="+")(style="background-color: #E2F5F1")
-            p Diseñar planes estratégicos que optimicen el uso de recursos y fortalezcan la competitividad del destino. Esto incluye estrategias de marketing, manejo de la capacidad de carga y diversificación de productos turísticos.
+            p Diseñar planes estratégicos que optimicen el uso de recursos y fortalezcan la competitividad del destino. Esto incluye estrategias de #[i marketing], manejo de la capacidad de carga y diversificación de productos turísticos.
 
           .tarjeta.tarjeta--blanca.p-3(x="87.5%" y="38%" numero="+")(style="background-color: #E2F5F1")
             p Promover la cooperación entre el sector público, privado y la comunidad local para garantizar la implementación efectiva de las estrategias.

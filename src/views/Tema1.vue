@@ -43,24 +43,24 @@
         SlyderA(tipo="b")
           .row
             .col-lg-7.mb-4.mb-lg-0
-              p #[b Optimización de ventas]
-              p.mb-0 El CRM automatiza y organiza el seguimiento de clientes potenciales y oportunidades de negocio. Esto permite a los equipos de ventas centrarse en actividades de alto valor, como el cierre de ventas, en lugar de perder tiempo en tareas administrativas. Además, el CRM facilita el análisis del comportamiento de los clientes, lo que ayuda a identificar oportunidades de ventas cruzadas #[i (cross-selling)] y ventas incrementales #[i (up-selling).]
+              p #[b Modelo de capital natural]
+              p.mb-0 Este enfoque prioriza la gestión responsable de los recursos naturales, asegurando que su uso no supere la capacidad regenerativa de los ecosistemas. Promueve prácticas sostenibles en sectores como la agricultura, la silvicultura y la gestión del agua, considerando estos recursos como un patrimonio esencial para las generaciones futuras.
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img-02.png', style="width: 450px" ,alt='').m-auto
           
           .row
             .col-lg-7.mb-4.mb-lg-0
-              p #[b Automatización del #[i marketing]]
-              p.mb-0 El CRM también permite la automatización de las campañas de #[i marketing,] personalizando los mensajes para cada segmento de clientes y enviándolos en el momento adecuado. Las empresas pueden programar correos electrónicos, notificaciones y promociones personalizadas según el comportamiento del cliente, lo que incrementa la efectividad de las campañas y mejora las tasas de conversión.
+              p #[b Modelo de desarrollo humano]
+              p.mb-0 Este modelo pone énfasis en mejorar la calidad de vida de las personas. Sus pilares incluyen el acceso a la educación, la salud y recursos básicos, permitiendo que las comunidades desarrollen capacidades que les permitan prosperar de manera sostenible.
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img-03.png', style="width: 450px" ,alt='').m-auto
           
           .row
             .col-lg-7.mb-4.mb-lg-0
-              p #[b Mejora del servicio al cliente]
-              p.mb-0 El CRM centraliza la información de los clientes, lo que permite a los equipos de servicio acceder fácilmente a los datos relevantes de los clientes, incluidas las interacciones pasadas, consultas previas y preferencias personales. Esto mejora la calidad del servicio al cliente y permite una resolución más rápida y efectiva de problemas.
+              p #[b Modelo de economía circular]
+              p.mb-0 Este enfoque económico busca transformar la forma en que se producen y consumen bienes, minimizando los residuos y maximizando el uso de los recursos. Se centra en diseñar productos reciclables, reutilizar materiales y fomentar procesos industriales más eficientes para reducir el impacto ambiental.
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img-04.png', style="width: 450px" ,alt='').m-auto 

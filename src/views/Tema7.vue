@@ -51,7 +51,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               p #[b Sitios #[i web] interactivos]
-              p.mb-0 Herramientas como Google Expeditions o aplicaciones personalizadas de destinos ofrecen recorridos virtuales que permiten al turista explorar atractivos antes de viajar, aumentando su deseo de visita. Por ejemplo, destinos como Machu Picchu ya cuentan con visitas virtuales inmersivas para captar la atención de viajeros potenciales.
+              p.mb-0 Los portales oficiales de turismo, como el de Nueva Zelanda, integran mapas interactivos, planificación de itinerarios y reservas directas, mejorando la experiencia del usuario desde el primer contacto.
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema7/img-05.png', style="width: 450px" ,alt='').m-auto 
