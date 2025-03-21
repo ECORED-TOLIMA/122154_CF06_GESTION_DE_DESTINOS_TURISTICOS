@@ -320,8 +320,6 @@ export default {
     },
     {
       referencia: 'Cuales.FM. (2016). Dimensiones del desarrollo sustentable.',
-      link:
-        'https://www.cuales.fm/wp-content/uploads/2016/02/dimensiones-desarrollo-sustentable.png',
     },
     {
       referencia:
